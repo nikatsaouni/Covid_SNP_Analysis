@@ -8,6 +8,6 @@ Functions for the analysis of SNP data.
 
 
 
-For  details concerning the layout of the project please refer to layout.txt
+For  details concerning the layout of the project please refer to layout.txt \\
 Raw data must be saved under /data/01_raw/
 
