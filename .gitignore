@@ -1,4 +1,17 @@
-data/01_raw/
+data/01_raw/   ## folder with raw data
+data/02_intermediate/Case_1/
+data/02_intermediate/Case_2/
+data/03_processed/Case_1/
+data/03_processed/Case_2/
+data/04_models/Case_1/
+data/04_models/Case_2/
+data/05_model_output/Case_1/
+data/05_model_output/Case_2/
+data/06_reporting/ Case_1/
+data/06_reporting/Case_2/
+
+src/d00_utils/project_path.py  ## path to the project
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
