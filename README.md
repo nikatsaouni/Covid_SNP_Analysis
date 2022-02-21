@@ -15,7 +15,7 @@ Steps to run the workflow:
 
 5)  Run R script for gene-based test
 
-The main functions are saved under src.d00_utils
+help functions are saved under src.d00_utils
 
 For  details concerning the layout of the project please refer to layout.txt
 
