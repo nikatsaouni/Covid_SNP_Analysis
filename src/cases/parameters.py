@@ -9,8 +9,8 @@ patient_data = path.proj_dir + "data/01_raw/Tabelle_Endfassung_040521.xlsx"
 
 # Parameters for calculations
 cutoff_SNPs = 4  # set the minimum number of SNPs per clinical score to be accounted for the calculations
-clinic_score_split = 3  # How to split the data to high and low clinical score
-senario = "Case_2"
+clinic_score_split = 2  # How to split the data to high and low clinical score
+senario = "Case_1"
 
 # Directories to save results
 Interm_Results = path.proj_dir + "data/02_intermediate/" + senario + "/"

@@ -4,8 +4,8 @@ from src.d00_utils.plink_functions import generate_ped_file, generate_map_file, 
 
 
 # Read SNP intermediate file
-path_of_SNP_data= p.Interm_Results + "SNP_data.csv"
-path_of_SNPs_to_Exclude =  p.Interm_Results + "rare_snps.csv"
+path_of_SNP_data = p.Interm_Results + "SNP_data.csv"
+path_of_SNPs_to_Exclude = p.Interm_Results + "rare_snps.csv"
 patient_data_path = p.Interm_Results + "patient_data.csv"
 
 

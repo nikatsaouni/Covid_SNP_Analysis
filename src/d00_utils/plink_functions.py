@@ -104,10 +104,10 @@ def generate_cov_file(patient_data):
 
 def PLINK_logistic_regression():
     ## Create bed file
-    os.system('./src/d00_utils/plink --file {0} --allow-no-sex --out {1} --make-bed'.format(p.Processed_Results + "covid_data_fin", p.Processed_Results + "covid_data_fin" ))
+    os.system('./plink --file {0} --allow-no-sex --out {1} --make-bed'.format(p.Processed_Results + "covid_data_fin", p.Processed_Results + "covid_data_fin" ))
 
     ## Run logistic regression
-    os.system('./src/d00_utils/plink --bfile {0} --sex --allow-no-sex --logistic --covar {1} --out {2}'.format(
+    os.system('./plink --bfile {0} --sex --allow-no-sex --logistic --covar {1} --out {2}'.format(
         p.Processed_Results + "covid_data_fin", p.Processed_Results + "cov_age_fin.txt", p.Model_Results + "log_regr_plink"
     ))
 
