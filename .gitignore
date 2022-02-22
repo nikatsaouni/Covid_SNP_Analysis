@@ -1,4 +1,5 @@
 data/
+docs/
 
 src/d00_utils/project_path.py  ## path to the project
 
